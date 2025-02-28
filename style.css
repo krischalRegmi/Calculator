@@ -40,7 +40,7 @@ body{
   border-radius: 50%;
   height: 70px;
   width: 70px;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
   background-color: #3b3b3b;
   color: white;
@@ -48,9 +48,9 @@ body{
 }
 
 #keys .btn{
-  background-color: #ff9500;
+  background-color: #ff9500; font-weight: normal;
+  font-size: 3em;
 }
-
 @media (min-width:700px) {
   #calculator{
   scale: 0.7;

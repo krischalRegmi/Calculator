@@ -1,11 +1,11 @@
-function display(value) {
-  document.getElementById("screen").value += value;
-}
+const display=document.getElementById("display");
 
-function clearScreen() {
-  document.getElementById("screen").value = "";
+function appendToDisplay(a) {
+    display.value += a;
 }
-
-function calculate() {
-  document.getElementById("screen").value = eval(document.getElementById("screen").value);
+function clearDisplay() {
+  display.value = "";
+}
+function calculate(){
+  display.value = eval(display.value);
 }
